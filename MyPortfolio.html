@@ -1,17 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Page Title</title>
-<meta name="description" content="Roughly 155 characters">
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio</title>    
+    <link rel="stylesheet" type="text/css" href="mystyle.css">  
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <!--  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css.all.css">
+    -->
+   
 </head>
 <body>
-    <h1>Portfolio Full Stack</h1>
-    <p>CV</p>
-    <span>experiencia laboral</span>
-<!-- Content -->
+    <div class="mat-card">
+        <div id="info-perfilybackground">
+            <div id="profile-background">
+                <img src="C:\Users\rafae\Desktop\Portfolio-FrontEnd\Imagen\StockSnap_BR2IU3WKMPr.jpg"></img>
+            </div>
+
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil fa_custom"></i></a></div>
+                
+            <div id="info-img">
+                <div class="profile-image"><img src="C:\Users\rafae\Desktop\Portfolio-FrontEnd\Imagen\Perfil.jpg"></img></div>
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil fa_custom"></i></a></div>
+            </div>
+            <div id="info-data">
+                <div>
+                    <h1>Rafael Sifontes</h1>
+                    <div id="info-perfil">Analista Full Stack Junior y Economista</div>
+                        <div id="info-contact">
+                            <span>Buenos Aires (Argentina)</span>
+                            <span><a href="#">Información de contacto</a></span>
+                        </div>
+                </div>
+            </div>
+        </div>  
+              
+            <div id="info-Experiencia">
+                <div class="experiencia"><h2>Experiencia laboral</h2></div>
+                
+            <p id="text-trayectoria">Amplia trayectoria y experiencia como especialista y analista en el área de finanzas y tesorería de empresas como Banco Exterior, Siemens, BBVA Banco Provincial de Venezuela y Citibank en Argentina.</p>
+            
+                <div class="btn-edit" onclick="cambiar_parrafo()">
+                    <a href="#" class="btn-right">
+                        <i class="fa fa-pencil fa_custom"></i>
+                    </a>
+                </div>
+                    <div>
+                        <input id="edit-trayectoria" type="text" oninput="myFunction2(this.value)" style="display:none"></input>
+                    </div>
+            
+           
+           <!--<input type="file" id="file" onchange="showFile(this)">-->
+          
+            
+                <div class="trabajos"><h3>Últimas experiencias laborales</h3></div>  
+                <ul id="info-Trabajos" style="list-style: none;">
+                    <li>              
+                        <span class="terramar-logo"><img src="C:\Users\rafae\Desktop\Portfolio-FrontEnd\Imagen\Terramar.jpg"></span>
+                        <span class="terramar">Terramar Logística - Analista de tesorería (desde jun-21 hasta la fecha)</span>
+                    </li>
+                        <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil fa_custom"></i></a></div>
+                    <li>
+                        <span class="citibank-logo"> <img src="C:\Users\rafae\Desktop\Portfolio-FrontEnd\Imagen\logo-Citibank.jpg"></span>
+                        <span class="citibank">Citibank - Analista financiero (ago-19 hasta jul-20)</span>
+                    </li>
+                        <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil fa_custom"></i></a></div>
+
+                </ul>
+            </div>    
+      
+            <ul id="info-Estudios" style="list-style: none;">
+                <div class="academia"><h2>Formación académica</h2></div>
+                <li>              
+                    <span class="curso-programación"><img src="C:\Users\rafae\Desktop\Portfolio-FrontEnd\Imagen\Logo curso.png"></span>
+                    <span class="escuela">Argentina Programa - "Analista Full Stack Junior" 2022</span>
+                </li>
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil fa_custom"></i></a></div>
+                <li>
+                    <span class="ucv"> <img src="C:\Users\rafae\Desktop\Portfolio-FrontEnd\Imagen\UCV.png"></span>
+                    <span class="universidad">Universidad Central de Venezuela - "Licendiado en Economía" 2008</span>
+                </li>
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil fa_custom"></i></a></div>
+            </ul>
+    </div>    
+
+
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="script.js"></script>
+              
+    <script language="javascript" type="text/javascript"></script>
+
 </body>
 </html>
