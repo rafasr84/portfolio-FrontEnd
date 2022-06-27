@@ -130,3 +130,40 @@ ul#info-Estudios {
     font-size: x-large;
 
 }
+
+div#info-habilidades {
+    border-style: solid;
+    border-color: rgb(16, 16, 21);
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+ .habilidades h2 {
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+div#info-proyectos {
+    border-style: solid;
+    border-color: rgb(16, 16, 21);
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+.proyectos h2 {
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.proyecto-perfil h3 { 
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
