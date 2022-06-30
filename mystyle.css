@@ -34,6 +34,9 @@ div#info-perfilybackground {
 div#info-data {
     padding: 10px;
 }
+div#info-actions {
+    display: -moz-box;
+}
 div#info-Experiencia {
 border-style: solid;
 border-color: rgb(16, 16, 21);
