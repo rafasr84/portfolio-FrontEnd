@@ -1,0 +1,31 @@
+{
+    "name":"Rafael Sifontes",
+    "backImage":"assets/Imagen/StockSnap_BR2IU3WKMPr.jpg",
+    "image":"assets/Imagen/Perfil.jpg",
+    "position":"Analista Full Stack Junior y Economista",
+    "ubication":"Buenos Aires (Argentina)",
+    "experience":"Amplia trayectoria y experiencia como especialista y analista en el área de finanzas y tesorería de empresas como Banco Exterior, Siemens, BBVA Banco Provincial de Venezuela y Citibank en Argentina.",
+    
+    "terramar":"Terramar Logística - Analista de tesorería (desde jun-21 hasta la fecha)",
+    "terramarimage":"assets/Imagen/Terramar.jpg",
+    "citibank":"Citibank - Analista financiero (ago-19 hasta jul-20)",
+    "citibankimage":"assets/Imagen/logo-Citibank.jpg",
+    
+    "curso":"Argentina Programa - Analista Full Stack Junior 2022",
+    "image1":"assets/Imagen/Logo_curso.png",
+    "carrera":"Universidad Central de Venezuela - Licendiado en Economía 2008",
+    "imageUCV":"assets/Imagen/UCV.png",
+    
+    "skills":[{
+        "name":"Excel avanzado, Microsoft Office, SAP, Calipso y Global Dynamics."
+        },{  
+        "name":"Inglés Intermedio-avanzado."
+        },{
+        "name":"Conocimientos en Html, CSS, Boostrap, Javascript, Angular, MySQL, Java y Spring Boot."
+        },{
+        "name":"Experiencia en Planificación y Presupuestos, análisis de créditos, riesgos financieros y mercado de valores."
+    }],
+
+    "nameproject":"Portfolio web Analista Full Stack Junior",
+    "proyecto":"Proyecto final del curso Argentina Programa #Yo Programo, el cual consite en realizar el presente portfolio para mostrar el perfil y CV profesional. Es una aplicación de arquitectura distribuida que contiene diseño de interfaz de usuario (front end), una base de datos que almacena la información mencionada en el portfolio y las APIs que proveen la información a través de internet (back end)."
+        }    

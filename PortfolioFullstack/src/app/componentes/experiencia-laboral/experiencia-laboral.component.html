@@ -1,0 +1,36 @@
+ <div id="info-Experiencia">
+          <div class="experiencia"><h2>Experiencia laboral</h2></div>
+          
+      <p id="text-trayectoria">Amplia trayectoria y experiencia como especialista y analista en el área de finanzas y tesorería de empresas como Banco Exterior, Siemens, BBVA Banco Provincial de Venezuela y Citibank en Argentina.</p>
+      
+          <div class="btn-edit" onclick="cambiar_parrafo()">
+              <a href="#" class="rounded float-end">
+                  <i class="fa fa-pencil fa_custom"></i>
+              </a>
+          </div>
+              <div>
+                  <input id="edit-trayectoria" type="text" oninput="myFunction2(this.value)" style="display:none">
+              </div>
+      
+     
+     <!--<input type="file" id="file" onchange="showFile(this)">-->
+    
+      
+          <div class="trabajos"><h3>Últimas experiencias laborales</h3></div>  
+          <ul id="info-Trabajos" style="list-style: none;">
+            <ul id="info-Trabajos" style="list-style: none;">
+                <li>              
+                    <span class="terramar-logo"><img [src]="miExperiencia.terramarimage"></span>
+                    <span class="terramar">{{miExperiencia.terramar}}</span>
+                </li>
+                    <div class="btn-edit"><a href="#" class="rounded float-end"><i class="fa fa-pencil fa_custom"></i></a></div>
+                <li>
+                    <span class="citibank-logo"> <img [src]="miExperiencia.citibankimage"></span>
+                    <span class="citibank">{{miExperiencia.citibank}}</span>
+                </li>
+                    <div class="btn-edit"><a href="#" class="rounded float-end"><i class="fa fa-pencil fa_custom"></i></a></div>
+
+            </ul>
+          </ul>
+          
+      </div> 

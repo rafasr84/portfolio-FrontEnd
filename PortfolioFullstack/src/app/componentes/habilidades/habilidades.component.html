@@ -1,0 +1,10 @@
+<div id="info-habilidades">
+    <div class="habilidades"><h2>Habilidades</h2></div>
+    <ul id="info-habilidades" style="list-style: circle;">
+        <li *ngFor="let habilidad of habilidadesList">
+            <span>{{habilidad.name}}</span>
+        </li>
+        <div class="btn-edit"><a href="#" class="rounded float-end"><i class="fa fa-pencil fa_custom"></i></a></div>
+        
+    </ul>
+</div>
